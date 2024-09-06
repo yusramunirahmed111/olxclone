@@ -1,0 +1,197 @@
+.brand{
+    width: 400px;
+    height: 100%;
+}
+.start{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.mid{
+    text-align: center;
+}
+ .fa-search{
+    margin-left: -30px;
+ }
+ .fa-angle-down{
+margin-left: -21px;
+ }
+ .log{
+    text-decoration: underline;
+    border: none;
+ }
+.botn{
+border-radius: 65px;
+border-color: palevioletred;
+background-color: white;
+}
+.ad1 img{
+    width: 90%;
+    margin-top: 10px;
+    padding-left: 90px;
+}
+.ad2 img{
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 400px;
+    padding-right: 20px;
+    }
+.counting{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+.maintain{
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+.one img{
+    width: 50px;
+}
+.two img{
+    width: 50px;
+}
+.three img{
+    width: 50px;
+}
+.four img{
+    width: 50px;
+}
+.fiv img{
+    width: 50px;
+}
+.six img{
+    width: 50px;
+}
+.svn img{
+    width: 50px;
+}
+.eight img{
+    width: 50px;
+}
+.nin img{
+    width: 50px;
+}
+.ten img{
+    width: 50px;
+}
+.elevn img{
+    width: 50px;
+}
+.twlve img{
+    width: 50px;
+}
+.thirtn img{
+    width: 50px;
+}
+.fourtn img{
+    width: 50px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+ .ad3 img{
+width: 80%;
+margin-top: 10px;
+padding-left: 200px;
+}
+.adding{
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.ad4 img{
+    width: 70%;
+    padding-left: 50px;
+}
+.texting img{
+width: 20%;
+padding-left: 20px;
+}
+.footer{
+    background-color:rgb(243, 232, 232);
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.apps img{
+    width: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+    @media screen and (max-width: 682px) {
+        .botn{
+            display: none;
+        }
+        .ad2 img{
+            width: 80%;
+            padding-left: 70px;
+        }
+        .counting{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+        }
+        .maintain{
+            display: grid;
+            grid-template-columns:  auto auto;
+            grid-template-rows: auto auto;
+        }
+        .apps img{
+            width: 100px;
+            margin: auto;
+
+        }
+
+    }
+    @media  screen and (max-width: 320px) {
+        .ad1 img{
+            margin: auto;
+        }
+        .email{
+            display: none;
+        }
+        .brand{
+            width: 80%;
+        }
+        .fa-search{
+            display: none;
+        }
+        .counting{
+            margin: auto;
+        }
+        .maintain{
+            margin: auto;
+        }
+        p{
+            font-size: 8px;
+        }
+        .adding{
+            margin: auto;
+        }
+        .apps img{
+            width: 20%;
+            display: grid;
+            grid-template-rows: auto auto auto; 
+             
+        }
+        .ad3{
+            display: none;
+        }
+        
+        .texting img{
+            width: 60%;
+        }
+        .footer{
+            margin: auto;
+            display: grid;
+            grid-template-rows: auto auto; 
+            gap: 2px;     
+          }
+        }
